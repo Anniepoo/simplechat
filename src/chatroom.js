@@ -9,8 +9,7 @@ $(document).ready(function(){
                    $('#chatarea').innerHTMl = data;
                 });
                      
-                
-            return false; //prevent default behaviour
+            e.preventDefault();
         }
     });
 
